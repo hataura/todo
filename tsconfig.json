@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["ES6", "DOM", "ES2019"],
+    "typeRoots": ["node_modules/@types"],
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "rootDir": "src"
+  },
+  "include": ["./**/*.ts*", "./**/*.js", "./.eslintrc.js"],
+  "exclude": ["node_modules", "public"],
+  "ts-node": {
+    "files": true
+  }
+}
